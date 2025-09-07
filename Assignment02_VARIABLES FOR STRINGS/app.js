@@ -1,3 +1,5 @@
+// VARIABLES FOR STRINGS
+
 // // 1. Declare a variable called username.
 
 // var username = "Fatima";
