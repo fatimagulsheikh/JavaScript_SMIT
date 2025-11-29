@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECTS</title>
+</head>
+<body>
+    <form id="citizenForm">
+
+    <input type="text" id="name" placeholder="Enter Name" required />
+
+    <input type="text" id="address" placeholder="Enter Address" required />
+
+    Gender:
+    <label><input type="radio" name="gender" value="Male" /> Male</label>
+    <label><input type="radio" name="gender" value="Female" /> Female</label>
+
+    <br><br>
+
+    Education:
+    <select id="education">
+        <option>Matric</option>
+        <option>Intermediate</option>
+        <option>Bachelors</option>
+        <option>Masters</option>
+        <option>PhD</option>
+    </select>
+
+    Profession:
+    <select id="profession">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Engineer</option>
+        <option>Doctor</option>
+        <option>Business</option>
+    </select>
+
+    <br><br>
+
+    <button type="button" onclick="saveRecord()">Save Record</button>
+</form>
+
+<div id="output"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
